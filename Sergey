@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Морозов. Д.З №5</title>
+	<script type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="">
+
+</head>
+<body>
+	<form>
+		<legend><font size="3" face="Calibri"><i>Пожалуйста, заполните форму. Обязательные поля помечены *</i></font></legend>
+	<p>
+		<fieldset>
+			<legend>Контактная информация</legend>
+				<div>
+                	<label for="textField">Имя * </label>
+                	<input id="textField" type="text">
+            	</div>
+            	<div>
+                	<label for="telephoneField">Телефон </label>
+                	<input id="textField" type="text">
+            	</div>
+            	<div>
+                	<label for="textareaField">Email * </label>
+                	<textarea id="textareaField"></textarea>
+            	</div>
+            	</fieldset>
+    </p>
+    	<fieldset>
+            <legend>Персональная информация</legend>
+			<div>
+                <label for="fileField">Возраст*</label>
+                <textarea id="textareaField"></textarea>
+            </div>
+            <div>
+            	<label for="fileField">Пол</label>
+            <select name="gender" tabindex="4">
+     			<option selected>Женский</option>
+     			<option>Мужской</option>
+    		</select>
+            </div>
+            <div>
+                <label for="textareaField">Перечислите личные качества</label>
+                <textarea id="textareaField"></textarea>
+            </div>
+		</fieldset>
+		<fieldset>
+			<legend>Выберите ваших любимых животных</legend>
+			<label>
+				<input type="checkbox">Зебра
+			</label>
+			<label>
+				<input type="checkbox">Кошак
+			</label>
+			<label>
+				<input type="checkbox">Анаконда
+			</label>
+			<label>
+				<input type="checkbox">Человек
+			</label>
+			<label>
+				<input type="checkbox">Слон
+			</label>
+			<label>
+				<input type="checkbox">Антилопа
+			</label>
+			<label>
+				<input type="checkbox">Голубь
+			</label>
+			<label>
+				<input type="checkbox">Краб
+			</label>	
+		</fieldset>
+	<p>	
+		<input type="button" value="Отправить информацию">
+	</p>	
